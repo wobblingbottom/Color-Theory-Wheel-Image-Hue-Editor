@@ -321,9 +321,8 @@ function scheduleHarmonyDisplay(hexColor) {
     });
 }
 
-// Handle harmony mode change
-harmonyModeSelect.addEventListener('change', (e) => {
-    harmonyMode = e.target.value;
+function applyHarmonyMode(modeValue) {
+    harmonyMode = modeValue;
     isDragging = false;
     // Show harmony for the edited color if currently editing, otherwise the wheel-picked color
     if (isEditingColor) {
@@ -335,6 +334,20 @@ harmonyModeSelect.addEventListener('change', (e) => {
         updateHarmonyDisplay(lastSelectedColor);
         renderSelectionOnWheel(lastSelectedColor);
     }
+}
+
+// Handle harmony mode change (mobile + desktop)
+harmonyModeSelect.addEventListener('input', (e) => {
+    applyHarmonyMode(e.target.value);
+});
+
+harmonyModeSelect.addEventListener('change', (e) => {
+    applyHarmonyMode(e.target.value);
+    harmonyModeSelect.blur();
+});
+
+harmonyModeSelect.addEventListener('blur', (e) => {
+    applyHarmonyMode(e.target.value);
 });
 
 // Color editor sliders
