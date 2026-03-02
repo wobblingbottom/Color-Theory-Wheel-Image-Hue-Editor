@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Wheel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content-box">
+        <h1>Color Theory Wheel</h1>
+        
+        <canvas id="colorWheel" width="400" height="400"></canvas>
+        
+        <div id="harmonyModeSelector">
+        <label for="harmonyMode">Color Harmony:</label>
+        <select id="harmonyMode">
+            <option value="complementary">Complementary</option>
+            <option value="monochromatic">Monochromatic</option>
+            <option value="analogous">Analogous</option>
+            <option value="triadic">Triadic</option>
+            <option value="tetradic">Tetradic</option>
+        </select>
+    </div>
+
+    <div id="selectedColorContainer">
+        <div>
+            <span>Selected Color:</span>
+            <input type="text" id="selectedColor" value="#ffffff" placeholder="#ffffff">
+            <div id="selectedColorSwatch" class="colorSwatch"></div>
+        </div>
+        <div id="colorEditor">
+            <div id="editorSection">
+                <label for="hueSlider">Hue:</label>
+                <input type="range" id="hueSlider" min="0" max="360" value="0">
+                <span id="hueValue">0°</span>
+            </div>
+            <div id="editorSection">
+                <label for="saturationSlider">Saturation:</label>
+                <input type="range" id="saturationSlider" min="0" max="100" value="0">
+                <span id="saturationValue">0%</span>
+            </div>
+            <div id="editorSection">
+                <label for="lightnessSlider">Lightness:</label>
+                <input type="range" id="lightnessSlider" min="0" max="100" value="50">
+                <span id="lightnessValue">50%</span>
+            </div>
+        </div>
+        <div id="harmonyColorsContainer">
+            <span>Harmony Colors:</span>
+            <div id="harmonyColors"></div>
+        </div>
+    </div>
+    </div>
+
+    <div class="content-box image-box">
+        <h2>Image Hue Editor</h2>
+        <div id="imageControls">
+            <label for="imageUpload">Upload Image:</label>
+            <input type="file" id="imageUpload" accept="image/*">
+        </div>
+        <div id="imageControls">
+            <label for="imageHue">Hue Shift:</label>
+            <input type="range" id="imageHue" min="-180" max="180" value="0">
+            <span id="imageHueValue">0°</span>
+        </div>
+        <canvas id="imageCanvas"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

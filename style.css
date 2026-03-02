@@ -1,0 +1,199 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 30px 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+.content-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 0 0 20px;
+    font-size: 22px;
+}
+
+#harmonyModeSelector {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#harmonyMode {
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #333;
+}
+
+canvas {
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 16px 12px;
+    }
+
+    .content-box {
+        width: 92%;
+        max-width: 520px;
+        padding: 20px;
+    }
+
+    canvas {
+        width: 280px;
+        height: 280px;
+        margin-bottom: 20px;
+    }
+
+    #selectedColorContainer {
+        max-width: 100%;
+    }
+}
+
+#selectedColorContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 600px;
+}
+
+#selectedColorContainer > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#colorEditor {
+    border: 1px solid #333;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+}
+
+#editorSection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+#editorSection label {
+    width: 80px;
+    font-weight: bold;
+}
+
+#editorSection input[type="range"] {
+    flex: 1;
+    max-width: 200px;
+}
+
+#editorSection span {
+    width: 50px;
+    text-align: right;
+}
+
+#selectedColor, #complementaryColor {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    color: black;
+}
+
+#harmonyColorsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 80px;
+    width: 100%;
+}
+
+#harmonyColors {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 5px;
+    min-height: 50px;
+    width: 100%;
+}
+
+#harmonyColors .harmonyColor {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.colorSwatch {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+
+.image-box {
+    margin-top: 24px;
+}
+
+#imageControls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#imageUpload {
+    font-size: 12px;
+}
+
+#imageHue {
+    flex: 1;
+    min-width: 160px;
+}
+
+#imageHueValue {
+    width: 50px;
+    text-align: right;
+}
+
+#imageCanvas {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
+    border: 1px solid #333;
+    background: #fff;
+}
