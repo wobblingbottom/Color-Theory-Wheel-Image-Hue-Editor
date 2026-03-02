@@ -324,13 +324,16 @@ function scheduleHarmonyDisplay(hexColor) {
 // Handle harmony mode change
 harmonyModeSelect.addEventListener('change', (e) => {
     harmonyMode = e.target.value;
+    isDragging = false;
     // Show harmony for the edited color if currently editing, otherwise the wheel-picked color
     if (isEditingColor) {
         const editedColor = hslToRgb(editedHue, editedSaturation, editedLightness);
         const editedColorHex = rgbToHex(editedColor.r, editedColor.g, editedColor.b);
         updateHarmonyDisplay(editedColorHex);
+        renderSelectionOnWheel(editedColorHex);
     } else {
         updateHarmonyDisplay(lastSelectedColor);
+        renderSelectionOnWheel(lastSelectedColor);
     }
 });
 
