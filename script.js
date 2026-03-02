@@ -10,17 +10,18 @@ function drawColorWheel() {
     // Create image data for smooth rendering without artifacts
     const imageData = ctx.createImageData(canvas.width, canvas.height);
     const data = imageData.data;
+    const edgeFeather = 1.5;
     
     for (let y = 0; y < canvas.height; y++) {
         for (let x = 0; x < canvas.width; x++) {
             // Calculate distance and angle from center
-            const dx = x - radius;
-            const dy = y - radius;
+            const dx = (x + 0.5) - radius;
+            const dy = (y + 0.5) - radius;
             const distance = Math.sqrt(dx * dx + dy * dy);
             const angle = Math.atan2(dy, dx);
             
             // Only draw within the circle
-            if (distance <= radius) {
+            if (distance <= radius + edgeFeather) {
                 const t = distance / radius; // 0 to 1
                 const hue = ((angle * 180 / Math.PI) + 360) % 360;
                 const saturation = t * 100;
@@ -34,7 +35,12 @@ function drawColorWheel() {
                 data[index] = rgb.r;
                 data[index + 1] = rgb.g;
                 data[index + 2] = rgb.b;
-                data[index + 3] = 255; // Alpha
+                if (distance <= radius - edgeFeather) {
+                    data[index + 3] = 255;
+                } else {
+                    const alpha = (radius + edgeFeather - distance) / (edgeFeather * 2);
+                    data[index + 3] = Math.max(0, Math.min(255, Math.round(alpha * 255)));
+                }
             }
         }
     }
