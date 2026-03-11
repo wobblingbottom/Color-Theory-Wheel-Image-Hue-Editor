@@ -1,5 +1,6 @@
 # Color Theory Wheel & Image Hue Editor
 <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"> <img src="https://img.shields.io/github/issues/wobblingbottom/Color-Theory-Wheel-Image-Hue-Editor.svg" alt="GitHub Issues"> <img src="https://img.shields.io/github/stars/wobblingbottom/Color-Theory-Wheel-Image-Hue-Editor.svg" alt="GitHub Stars">
+
 Interactive color wheel and image hue editor for artists, designers, and color enthusiasts.
 
 ## Table of Contents
