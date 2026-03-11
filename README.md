@@ -1,54 +1,70 @@
-# Color Theory Wheel & Image Hue Editor
-<img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
+### Color Theory Wheel & Image Hue Editor
+Interactive color wheel and image hue editor for artists, designers, and color enthusiasts.
 
-<img src="https://img.shields.io/github/issues/wobblingbottom/Color-Theory-Wheel-Image-Hue-Editor.svg" alt="GitHub Issues">
+## Table of Contents
+Overview
+Features
+Live Demo
+Installation
+Usage
+Examples
+Configuration
+Contributing
+License
+Credits
 
-<img src="https://img.shields.io/github/stars/wobblingbottom/Color-Theory-Wheel-Image-Hue-Editor.svg" alt="GitHub Stars">
+### Overview
+Color Theory Wheel & Image Hue Editor is a web-based tool that lets you explore color harmonies and edit image hues interactively.
+It helps visualize color relationships and experiment with color adjustments, making it ideal for creative work.
 
-## Overview
-Color Theory Wheel & Image Hue Editor is an interactive web tool for exploring color harmonies and editing image hues. It combines a color wheel with harmony modes and a simple image hue editor, making it ideal for artists, designers, and anyone interested in color theory.
+### Features
 
-## Features
 Interactive color wheel with harmony modes (complementary, analogous, triadic, etc.)
 Real-time image hue editing
 Responsive design for desktop and mobile
 Simple, intuitive UI
-Docker support for easy deployment
-### Demo
+No installation required—works directly in your browser
+### Live Demo
+Try it instantly:
 https://wobblingbottom.github.io/Color-Theory-Wheel-Image-Hue-Editor/
 
-## Installation
-### Local
-Clone the repository:
-Open index.html in your browser.
-### Docker
-Build the Docker image:
-Run the container:
-Visit http://localhost:8080 in your browser.
-## Usage
+### Installation
+You can use the tool online—no installation needed!
+
+For local use or development:
+git clone https://github.com/wobblingbottom/Color-Theory-Wheel-Image-Hue-Editor.git
+cd Color-Theory-Wheel-Image-Hue-Editor
+Open index.html in your browser
+
+Or with Docker:
+docker build -t color-theory-wheel .
+docker run -p 8080:80 color-theory-wheel
+Visit http://localhost:8080
+
+### Usage
+
 Select colors on the wheel to explore harmony modes.
 Upload an image and adjust its hue interactively.
-Use the UI controls to switch between harmony modes and image editing.
-## Folder Structure
-index.html – Main HTML file
-script.js – JavaScript logic
-style.css – Stylesheet
-.vscode/ – VS Code settings
-Dockerfile – Docker configuration
-## Contributing
-Contributions are welcome! Please open issues or pull requests for suggestions, bug fixes, or new features.
+Switch between harmony modes and image editing using the UI controls.
+###Examples
+Screenshot: https://wobblingbottom.github.io/Color-Theory-Wheel-Image-Hue-Editor/screenshot.png
+Example of the color wheel and image editor interface.
 
-Fork the repo
-Create your feature branch (git checkout -b feature/YourFeature)
-Commit your changes (git commit -am 'Add new feature')
-Push to the branch (git push origin feature/YourFeature)
-Open a pull request
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+### Configuration
+No special configuration required.
+All features are available out-of-the-box.
 
-## Author
-wobblingbottom
-Links
-Code
-Issues
-Pull Requests
+### Contributing
+Contributions are welcome!
+
+Open issues for bugs or feature requests
+Fork the repo and submit pull requests
+Follow standard coding style and add clear comments
+### License
+MIT License.
+See LICENSE for details.
+
+###Credits
+
+Created by wobblingbottom (https://github.com/wobblingbottom)
+Inspired by color theory and digital art tools
