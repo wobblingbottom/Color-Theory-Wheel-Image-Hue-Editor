@@ -76,5 +76,5 @@ MIT License.
 See LICENSE for details.
 
 ## Credits
-- Created by wobblingbottom (https://github.com/wobblingbottom)
+- Created by https://github.com/wobblingbottom
 - Inspired by color theory and digital art tools
