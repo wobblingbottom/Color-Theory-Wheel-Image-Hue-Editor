@@ -1,4 +1,4 @@
-### Color Theory Wheel & Image Hue Editor
+# Color Theory Wheel & Image Hue Editor
 Interactive color wheel and image hue editor for artists, designers, and color enthusiasts.
 
 ## Table of Contents
@@ -13,22 +13,22 @@ Contributing
 License
 Credits
 
-### Overview
+## Overview
 Color Theory Wheel & Image Hue Editor is a web-based tool that lets you explore color harmonies and edit image hues interactively.
 It helps visualize color relationships and experiment with color adjustments, making it ideal for creative work.
 
-### Features
+## Features
 
 Interactive color wheel with harmony modes (complementary, analogous, triadic, etc.)
 Real-time image hue editing
 Responsive design for desktop and mobile
 Simple, intuitive UI
 No installation required—works directly in your browser
-### Live Demo
+## Live Demo
 Try it instantly:
 https://wobblingbottom.github.io/Color-Theory-Wheel-Image-Hue-Editor/
 
-### Installation
+## Installation
 You can use the tool online—no installation needed!
 
 For local use or development:
@@ -41,30 +41,30 @@ docker build -t color-theory-wheel .
 docker run -p 8080:80 color-theory-wheel
 Visit http://localhost:8080
 
-### Usage
+## Usage
 
 Select colors on the wheel to explore harmony modes.
 Upload an image and adjust its hue interactively.
 Switch between harmony modes and image editing using the UI controls.
-###Examples
+## Examples
 Screenshot: https://wobblingbottom.github.io/Color-Theory-Wheel-Image-Hue-Editor/screenshot.png
 Example of the color wheel and image editor interface.
 
-### Configuration
+## Configuration
 No special configuration required.
 All features are available out-of-the-box.
 
-### Contributing
+## Contributing
 Contributions are welcome!
 
 Open issues for bugs or feature requests
 Fork the repo and submit pull requests
 Follow standard coding style and add clear comments
-### License
+## License
 MIT License.
 See LICENSE for details.
 
-###Credits
+## Credits
 
 Created by wobblingbottom (https://github.com/wobblingbottom)
 Inspired by color theory and digital art tools
