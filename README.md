@@ -35,7 +35,9 @@ You can use the tool online—no installation needed!
 
 ### For local use or development:
 git clone https://github.com/wobblingbottom/Color-Theory-Wheel-Image-Hue-Editor.git
+
 cd Color-Theory-Wheel-Image-Hue-Editor
+
 Open index.html in your browser
 
 ### Or with Docker:
