@@ -4,7 +4,7 @@
 Interactive color wheel and image hue editor for artists, designers, and color enthusiasts.
 
 ## Table of Contents
-- verview
+- Overview
 - Features
 - Live Demo
 - Installation
