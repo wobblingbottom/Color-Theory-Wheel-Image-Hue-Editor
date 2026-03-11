@@ -15,7 +15,7 @@ Responsive design for desktop and mobile
 Simple, intuitive UI
 Docker support for easy deployment
 ### Demo
-https://discord.com/channels/950028939890413578/1021018199564750938/1481196921044598805
+https://wobblingbottom.github.io/Color-Theory-Wheel-Image-Hue-Editor/
 
 ## Installation
 ### Local
