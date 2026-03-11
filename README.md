@@ -18,24 +18,24 @@ Docker support for easy deployment
 Coming soon! (Or add a link to a live demo if available)
 
 ## Installation
-Local
+### Local
 Clone the repository:
 Open index.html in your browser.
-Docker
+### Docker
 Build the Docker image:
 Run the container:
 Visit http://localhost:8080 in your browser.
-Usage
+## Usage
 Select colors on the wheel to explore harmony modes.
 Upload an image and adjust its hue interactively.
 Use the UI controls to switch between harmony modes and image editing.
-Folder Structure
+## Folder Structure
 index.html – Main HTML file
 script.js – JavaScript logic
 style.css – Stylesheet
 .vscode/ – VS Code settings
 Dockerfile – Docker configuration
-Contributing
+## Contributing
 Contributions are welcome! Please open issues or pull requests for suggestions, bug fixes, or new features.
 
 Fork the repo
@@ -43,10 +43,10 @@ Create your feature branch (git checkout -b feature/YourFeature)
 Commit your changes (git commit -am 'Add new feature')
 Push to the branch (git push origin feature/YourFeature)
 Open a pull request
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Author
+## Author
 wobblingbottom
 Links
 Code
