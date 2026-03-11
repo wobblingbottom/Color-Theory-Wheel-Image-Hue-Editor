@@ -2,26 +2,28 @@
 Interactive color wheel and image hue editor for artists, designers, and color enthusiasts.
 
 ## Table of Contents
-Overview
-Features
-Live Demo
-Installation
-Usage
-Examples
-Configuration
-Contributing
-License
-Credits
-Overview
+- verview
+- Features
+- Live Demo
+- Installation
+- Usage
+- Examples
+- Configuration
+- Contributing
+- License
+- Credits
+
+## Overview
 Color Theory Wheel & Image Hue Editor is a web-based tool that lets you explore color harmonies and edit image hues interactively.
 It helps visualize color relationships and experiment with color adjustments, making it ideal for creative work.
 
 ## Features
-Interactive color wheel with harmony modes (complementary, analogous, triadic, etc.)
-Real-time image hue editing
-Responsive design for desktop and mobile
-Simple, intuitive UI
-No installation required—works directly in your browser
+- Interactive color wheel with harmony modes (complementary, analogous, triadic, etc.)
+- Real-time image hue editing
+- Responsive design for desktop and mobile
+- Simple, intuitive UI
+- No installation required—works directly in your browser
+
 ## Live Demo
 Try it instantly:
 https://wobblingbottom.github.io/Color-Theory-Wheel-Image-Hue-Editor/
@@ -40,10 +42,11 @@ docker run -p 8080:80 color-theory-wheel
 Visit http://localhost:8080
 
 ## Usage
-Select colors on the wheel to explore harmony modes.
-Upload an image and adjust its hue interactively.
-Switch between harmony modes and image editing using the UI controls.
-Examples
+- Select colors on the wheel to explore harmony modes.
+- Upload an image and adjust its hue interactively.
+- Switch between harmony modes and image editing using the UI controls.
+
+## Examples
 Below are screenshots of the main features:
 
 ## Color Theory Wheel
@@ -59,13 +62,13 @@ All features are available out-of-the-box.
 ## Contributing
 Contributions are welcome!
 
-Open issues for bugs or feature requests
-Fork the repo and submit pull requests
-Follow standard coding style and add clear comments
+- Open issues for bugs or feature requests
+- Fork the repo and submit pull requests
+- Follow standard coding style and add clear comments
 ## License
 MIT License.
 See LICENSE for details.
 
 ## Credits
-Created by wobblingbottom (https://github.com/wobblingbottom)
-Inspired by color theory and digital art tools
+- Created by wobblingbottom (https://github.com/wobblingbottom)
+- Inspired by color theory and digital art tools
