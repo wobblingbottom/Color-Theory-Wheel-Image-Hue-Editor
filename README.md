@@ -12,13 +12,11 @@ Configuration
 Contributing
 License
 Credits
-
-## Overview
+Overview
 Color Theory Wheel & Image Hue Editor is a web-based tool that lets you explore color harmonies and edit image hues interactively.
 It helps visualize color relationships and experiment with color adjustments, making it ideal for creative work.
 
 ## Features
-
 Interactive color wheel with harmony modes (complementary, analogous, triadic, etc.)
 Real-time image hue editing
 Responsive design for desktop and mobile
@@ -31,24 +29,28 @@ https://wobblingbottom.github.io/Color-Theory-Wheel-Image-Hue-Editor/
 ## Installation
 You can use the tool online—no installation needed!
 
-For local use or development:
+### For local use or development:
 git clone https://github.com/wobblingbottom/Color-Theory-Wheel-Image-Hue-Editor.git
 cd Color-Theory-Wheel-Image-Hue-Editor
 Open index.html in your browser
 
-Or with Docker:
+### Or with Docker:
 docker build -t color-theory-wheel .
 docker run -p 8080:80 color-theory-wheel
 Visit http://localhost:8080
 
 ## Usage
-
 Select colors on the wheel to explore harmony modes.
 Upload an image and adjust its hue interactively.
 Switch between harmony modes and image editing using the UI controls.
-## Examples
-Screenshot: https://wobblingbottom.github.io/Color-Theory-Wheel-Image-Hue-Editor/screenshot.png
-Example of the color wheel and image editor interface.
+Examples
+Below are screenshots of the main features:
+
+## Color Theory Wheel
+<img src="https://wobblingbottom.github.io/Color-Theory-Wheel-Image-Hue-Editor/screenshot-color-wheel.png" alt="Color Theory Wheel">
+
+## Image Hue Editor
+<img src="https://wobblingbottom.github.io/Color-Theory-Wheel-Image-Hue-Editor/screenshot-image-editor.png" alt="Image Hue Editor">
 
 ## Configuration
 No special configuration required.
@@ -65,6 +67,5 @@ MIT License.
 See LICENSE for details.
 
 ## Credits
-
 Created by wobblingbottom (https://github.com/wobblingbottom)
 Inspired by color theory and digital art tools
