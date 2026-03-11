@@ -42,7 +42,9 @@ Open index.html in your browser
 
 ### Or with Docker:
 docker build -t color-theory-wheel .
+
 docker run -p 8080:80 color-theory-wheel
+
 Visit http://localhost:8080
 
 ## Usage
