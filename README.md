@@ -47,10 +47,10 @@ Examples
 Below are screenshots of the main features:
 
 ## Color Theory Wheel
-<img width="1225" height="1441" alt="Screenshot 2026-03-11 095933" src="https://github.com/user-attachments/assets/8b5eb8ef-5029-46da-97d4-d7830d1030ed" />
+<img width="612.5" height="720.5" alt="Screenshot 2026-03-11 095933" src="https://github.com/user-attachments/assets/8b5eb8ef-5029-46da-97d4-d7830d1030ed" />
 
 ## Image Hue Editor
-<img width="1194" height="909" alt="Screenshot 2026-03-11 095952" src="https://github.com/user-attachments/assets/688516d9-9bae-4132-b8da-fdf120b90519" />
+<img width="597" height="454" alt="Screenshot 2026-03-11 095952" src="https://github.com/user-attachments/assets/688516d9-9bae-4132-b8da-fdf120b90519" />
 
 ## Configuration
 No special configuration required.
